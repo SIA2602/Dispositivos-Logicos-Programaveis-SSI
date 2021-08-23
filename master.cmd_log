@@ -1,0 +1,23 @@
+xst -intstyle ise -ifn "C:/Users/gusta/Desktop/2021_1/DLP/Prova 1/Prova 1/SSI/master.xst" -ofn "C:/Users/gusta/Desktop/2021_1/DLP/Prova 1/Prova 1/SSI/master.syr" 
+xst -intstyle ise -ifn "C:/Users/gusta/Desktop/2021_1/DLP/Prova 1/Prova 1/SSI/master.xst" -ofn "C:/Users/gusta/Desktop/2021_1/DLP/Prova 1/Prova 1/SSI/master.syr" 
+xst -intstyle ise -ifn "C:/Users/gusta/Desktop/2021_1/DLP/Prova 1/Prova 1/SSI/master.xst" -ofn "C:/Users/gusta/Desktop/2021_1/DLP/Prova 1/Prova 1/SSI/master.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-vq100-5 "master.ngc" master.ngd  
+map -intstyle ise -p xc3s50-vq100-5 -cm area -ir off -pr off -c 100 -o master_map.ncd master.ngd master.pcf 
+par -w -intstyle ise -ol high -t 1 master_map.ncd master.ncd master.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml master.twx master.ncd -o master.twr master.pcf 
+xst -intstyle ise -ifn "C:/Users/gusta/Desktop/2021_1/DLP/Prova 1/Prova 1/SSI/master.xst" -ofn "C:/Users/gusta/Desktop/2021_1/DLP/Prova 1/Prova 1/SSI/master.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-vq100-5 "master.ngc" master.ngd  
+map -intstyle ise -p xc3s50-vq100-5 -cm area -ir off -pr off -c 100 -o master_map.ncd master.ngd master.pcf 
+par -w -intstyle ise -ol high -t 1 master_map.ncd master.ncd master.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml master.twx master.ncd -o master.twr master.pcf 
+xst -intstyle ise -ifn "C:/Users/gusta/Desktop/2021_1/DLP/Prova 1/Prova 1/SSI/master.xst" -ofn "C:/Users/gusta/Desktop/2021_1/DLP/Prova 1/Prova 1/SSI/master.syr" 
+xst -intstyle ise -ifn "C:/Users/gusta/Desktop/2021_1/DLP/Prova 1/Prova 1/SSI/master.xst" -ofn "C:/Users/gusta/Desktop/2021_1/DLP/Prova 1/Prova 1/SSI/master.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-vq100-5 "master.ngc" master.ngd  
+map -intstyle ise -p xc3s50-vq100-5 -cm area -ir off -pr off -c 100 -o master_map.ncd master.ngd master.pcf 
+par -w -intstyle ise -ol high -t 1 master_map.ncd master.ncd master.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml master.twx master.ncd -o master.twr master.pcf 
+xst -intstyle ise -ifn "C:/Users/gusta/Desktop/2021_1/DLP/Prova 1/Prova 1/SSI/master.xst" -ofn "C:/Users/gusta/Desktop/2021_1/DLP/Prova 1/Prova 1/SSI/master.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50-vq100-5 "master.ngc" master.ngd  
+map -intstyle ise -p xc3s50-vq100-5 -cm area -ir off -pr off -c 100 -o master_map.ncd master.ngd master.pcf 
+par -w -intstyle ise -ol high -t 1 master_map.ncd master.ncd master.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml master.twx master.ncd -o master.twr master.pcf 
