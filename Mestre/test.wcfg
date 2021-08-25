@@ -3,49 +3,49 @@
    <wave_state>
    </wave_state>
    <db_ref_list>
-      <db_ref path="C:/Users/gusta/Desktop/2021_1/DLP/Prova 1/Prova 1/SSI/test_isim_beh.wdb" id="1" type="auto">
+      <db_ref path="C:/Dev/Dispositivos-Logicos-Programaveis-SSI-main/Mestre/slave_isim_beh1.wdb" id="1" type="auto">
          <top_modules>
             <top_module name="numeric_std" />
+            <top_module name="slave" />
             <top_module name="std_logic_1164" />
-            <top_module name="test" />
          </top_modules>
       </db_ref>
    </db_ref_list>
    <WVObjectSize size="9" />
-   <wvobject fp_name="/test/clk" type="logic" db_ref_id="1">
-      <obj_property name="ElementShortName">clk</obj_property>
-      <obj_property name="ObjectShortName">clk</obj_property>
-   </wvobject>
-   <wvobject fp_name="/test/start" type="logic" db_ref_id="1">
-      <obj_property name="ElementShortName">start</obj_property>
-      <obj_property name="ObjectShortName">start</obj_property>
-   </wvobject>
-   <wvobject fp_name="/test/rst" type="logic" db_ref_id="1">
-      <obj_property name="ElementShortName">rst</obj_property>
-      <obj_property name="ObjectShortName">rst</obj_property>
-   </wvobject>
-   <wvobject fp_name="/test/miso" type="logic" db_ref_id="1">
-      <obj_property name="ElementShortName">miso</obj_property>
-      <obj_property name="ObjectShortName">miso</obj_property>
-   </wvobject>
-   <wvobject fp_name="/test/data" type="array" db_ref_id="1">
-      <obj_property name="ElementShortName">data[7:0]</obj_property>
-      <obj_property name="ObjectShortName">data[7:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/test/mosi" type="logic" db_ref_id="1">
+   <wvobject fp_name="/slave/mosi" type="logic" db_ref_id="1">
       <obj_property name="ElementShortName">mosi</obj_property>
       <obj_property name="ObjectShortName">mosi</obj_property>
    </wvobject>
-   <wvobject fp_name="/test/cs1" type="logic" db_ref_id="1">
-      <obj_property name="ElementShortName">cs1</obj_property>
-      <obj_property name="ObjectShortName">cs1</obj_property>
+   <wvobject fp_name="/slave/miso" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">miso</obj_property>
+      <obj_property name="ObjectShortName">miso</obj_property>
    </wvobject>
-   <wvobject fp_name="/test/uut/buffermiso" type="array" db_ref_id="1">
-      <obj_property name="ElementShortName">buffermiso[7:0]</obj_property>
-      <obj_property name="ObjectShortName">buffermiso[7:0]</obj_property>
+   <wvobject fp_name="/slave/master_clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">master_clk</obj_property>
+      <obj_property name="ObjectShortName">master_clk</obj_property>
    </wvobject>
-   <wvobject fp_name="/test/uut/state" type="other" db_ref_id="1">
-      <obj_property name="ElementShortName">state</obj_property>
-      <obj_property name="ObjectShortName">state</obj_property>
+   <wvobject fp_name="/slave/cs" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cs</obj_property>
+      <obj_property name="ObjectShortName">cs</obj_property>
+   </wvobject>
+   <wvobject fp_name="/slave/state_reg" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">state_reg</obj_property>
+      <obj_property name="ObjectShortName">state_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/slave/state_next" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">state_next</obj_property>
+      <obj_property name="ObjectShortName">state_next</obj_property>
+   </wvobject>
+   <wvobject fp_name="/slave/mosi_reg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mosi_reg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">mosi_reg[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/slave/miso_reg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">miso_reg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">miso_reg[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/slave/counter" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">counter</obj_property>
+      <obj_property name="ObjectShortName">counter</obj_property>
    </wvobject>
 </wave_config>

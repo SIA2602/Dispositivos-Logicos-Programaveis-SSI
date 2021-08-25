@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2021-08-22T09:48:59</DateModified>
+  <DateModified>2021-08-25T10:49:14</DateModified>
   <ModuleName>master</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>C:/Users/gusta/Desktop/2021_1/DLP/Prova 1/Prova 1/SSI/iseconfig/master.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/gusta/Desktop/2021_1/DLP/Prova 1/Prova 1/SSI</ImplementationReportsDirectory>
+  <SavedFilePath>C:/Dev/DLP/Dispositivos-Logicos-Programaveis-SSI/Mestre/iseconfig/master.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>C:/Dev/DLP/Dispositivos-Logicos-Programaveis-SSI/Mestre\</ImplementationReportsDirectory>
   <DateInitialized>2021-08-22T09:48:59</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

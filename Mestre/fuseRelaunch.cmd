@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -o "C:/Users/gusta/Desktop/2021_1/DLP/Prova 1/Prova 1/SSI/test_isim_beh.exe" -prj "C:/Users/gusta/Desktop/2021_1/DLP/Prova 1/Prova 1/SSI/test_beh.prj" "work.test" 
+-intstyle "ise" -incremental -o "C:/Dev/DLP/Dispositivos-Logicos-Programaveis-SSI/Mestre/slave_isim_beh.exe" -prj "C:/Dev/DLP/Dispositivos-Logicos-Programaveis-SSI/Mestre/slave_beh.prj" "work.slave" 
